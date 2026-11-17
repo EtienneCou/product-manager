@@ -1,0 +1,44 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Ordinateur portable perfomant",
+      "price": 750,
+      "available": true,
+      "image": "https://placehold.co/400x250"
+    },
+    {
+      "id": "2",
+      "name": "Montre connectée",
+      "description": "Montre connectée de dernière génération.",
+      "price": 9.99,
+      "available": true,
+      "image": "https://placehold.co/400x250"
+    },
+    {
+      "id": "3",
+      "name": "Smartphone",
+      "description": "Smartphone haut de gamme avec un appareil photo exceptionnel.",
+      "price": 799.99,
+      "available": true,
+      "image": "https://placehold.co/400x250"
+    },
+    {
+      "id": "4",
+      "name": "Casque audio",
+      "description": "Casque audio sans fil avec une qualité sonore exceptionnelle.",
+      "price": 199.99,
+      "available": false,
+      "image": "https://placehold.co/400x250"
+    },
+    {
+      "name": "test",
+      "description": "test",
+      "price": "500",
+      "image": "https://placehold.co/400x250",
+      "available": true,
+      "id": "SFhQHSMPV3k"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
