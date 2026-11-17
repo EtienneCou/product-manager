@@ -1,43 +1,28 @@
 {
   "products": [
     {
-      "id": "1",
-      "name": "Ordinateur portable perfomant",
-      "price": 750,
-      "available": true,
-      "image": "https://placehold.co/400x250"
-    },
-    {
-      "id": "2",
-      "name": "Montre connectée",
-      "description": "Montre connectée de dernière génération.",
-      "price": 9.99,
-      "available": true,
-      "image": "https://placehold.co/400x250"
-    },
-    {
-      "id": "3",
-      "name": "Smartphone",
-      "description": "Smartphone haut de gamme avec un appareil photo exceptionnel.",
-      "price": 799.99,
-      "available": true,
-      "image": "https://placehold.co/400x250"
-    },
-    {
-      "id": "4",
       "name": "Casque audio",
-      "description": "Casque audio sans fil avec une qualité sonore exceptionnelle.",
-      "price": 199.99,
-      "available": false,
-      "image": "https://placehold.co/400x250"
-    },
-    {
-      "name": "test",
-      "description": "test",
-      "price": "500",
+      "description": "Casque nouvelle génération dolby digital 5.1",
+      "price": "24.99",
       "image": "https://placehold.co/400x250",
       "available": true,
-      "id": "SFhQHSMPV3k"
+      "id": "xp2Y9CmGLmg"
+    },
+    {
+      "name": "Ordinateur portable",
+      "description": "Ordinateur lenovo i5 3070ti",
+      "price": "36.99",
+      "image": "https://placehold.co/400x250",
+      "available": false,
+      "id": "2ousLQ6W5RI"
+    },
+    {
+      "name": "Clavier ",
+      "description": "Clavier gaming Asus mécanique",
+      "price": "299.99",
+      "image": "https://placehold.co/400x250",
+      "available": true,
+      "id": "gpC3qoZWtKw"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

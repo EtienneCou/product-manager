@@ -38,6 +38,20 @@ export async function getProductById(id) {
     return await response.json()   
 }
 
+export async function updateProductAvailability(id, available) {
+    const response = await fetch(`${API_URL}/${id}`, {
+        method: 'PATCH',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({ available })
+    })
+
+    if (!response.ok) {
+        throw new Error('Erreur lors de la modification de la disponibilité du produit')
+    }
+
+    return await response.json()
+}
+
 export async function deleteProduct(id) {
     const response = await fetch(`${API_URL}/${id}`, {
         method: 'DELETE'
